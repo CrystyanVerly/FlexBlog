@@ -78,4 +78,37 @@ a {
   max-width: 960px;
 }
 
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+#about .about-description {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+#about .about-description h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+#about .about-description p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #7c7c7c;
+  margin-bottom: 1.25rem;
+}
+#about .about-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+#about .about-img img {
+  margin-right: 10px;
+  flex: 1 1 160px;
+}
+
 /*# sourceMappingURL=style.css.map */
