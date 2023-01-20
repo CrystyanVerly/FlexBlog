@@ -1,3 +1,41 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Nunito", "Helvetica", sans-serif;
+  color: #222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info-bg {
+  background: #122ab2;
+  color: #fff;
+}
+.info-bg a {
+  color: #fff;
+}
+.info-bg .container-general-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 960px;
+  height: 42px;
+  font-size: 1rem;
+}
+.info-bg .container-general-info p,
+.info-bg .container-general-info a {
+  margin: 10px 10px 10px 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

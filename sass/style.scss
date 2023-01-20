@@ -1,0 +1,41 @@
+// general
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", "Helvetica", sans-serif;
+  color: #222;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+// info
+.info-bg {
+  background: #122ab2;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  .container-general-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 960px;
+    height: 42px;
+    font-size: 1rem;
+    p,
+    a {
+      margin: 10px 10px 10px 10px;
+    }
+  }
+}
