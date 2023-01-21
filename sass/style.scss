@@ -121,3 +121,40 @@ a {
     }
   }
 }
+
+// section products
+
+#product {
+  max-width: 960px;
+  margin: 60px auto;
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 10px 60px 10px;
+  }
+  .product-container {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    .product {
+      margin: 10px;
+      flex: 1 1 175px;
+      h2 {
+        font-size: 3rem;
+        color: #a4a4a4;
+        background: #f7f7f7;
+        padding: 60px 20px;
+        font-weight: bold;
+      }
+    }
+    .purple {
+      border-top: 8px solid #ae81ff;
+    }
+    .pink {
+      border-top: 8px solid #f9265e;
+    }
+    .blue {
+      border-top: 8px solid #66d9eb;
+    }
+  }
+}
