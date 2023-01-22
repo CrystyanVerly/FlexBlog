@@ -297,37 +297,50 @@ a {
   .newsletter-form-container {
     display: flex;
     flex-wrap: wrap;
-    flex: 2 1 260px;
+    flex: 2 1 250px;
     margin: 0 10px;
     align-self: center;
     input {
-      flex: 3 1 200px;
+      flex: 3 1 250px;
       font-size: 1.25rem;
       color: #7c7c7c;
       font-style: italic;
       font-family: "Nunito", "Helvetica", sans-serif;
-      border: 3px solid #2c70ff;
+      border: 4px solid #2c70ff;
       background: transparent;
       padding: 15px 10px;
       border-radius: 0px;
+      margin: 0px;
       &:focus,
       select:focus {
         outline: 0;
       }
     }
     button {
-      flex: 1 1 200px;
+      flex: 1 1 250px;
       font-size: 2.25rem;
       font-family: "Nunito", "Helvetica", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
       background: #2c70ff;
-      border: 3px solid #2c70ff;
+      border: 0px;
       color: #fff;
       padding: 15px 10px;
       cursor: pointer;
+      margin: 0px;
     }
   }
 }
 
 // footer section
+.footer {
+  display: flex;
+  height: 200px;
+  background: #2c70ff;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 2.25rem;
+    color: #122ab2;
+  }
+}
